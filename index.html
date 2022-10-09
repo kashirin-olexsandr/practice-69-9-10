@@ -5,66 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <a href="/"><img src="./images/logo.svg" alt="logo" />Finance Ledger</a>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Cases</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Contact</a></li>
+      <nav class="header-nav container">
+        <a class="logo link" href="/"
+          ><img src="./images/logo.svg" alt="logo" />
+          <span class="logo-accent">Finance</span> Ledger</a
+        >
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link link" href="">Home</a></li>
+          <li class="nav-item"><a class="nav-link link" href="">About</a></li>
+          <li class="nav-item"><a class="nav-link link" href="">Cases</a></li>
+          <li class="nav-item"><a class="nav-link link" href="">Blog</a></li>
+          <li class="nav-item"><a class="nav-link link" href="">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <h1>The Sky Is The Limit</h1>
-        <p>We provide world class financial assistance</p>
-        <button type="button">Read More</button>
+      <section class="hero-section">
+        <div class="container">
+          <h1 class="hero-title">The sky is the limit</h1>
+          <p class="hero-text">We provide world class financial assistance</p>
+          <button class="hero-button" type="button">Read More</button>
+        </div>
       </section>
-      <section>
-        <h2>Services</h2>
-        <ul>
-          <li>
-            <h3>Investmant Banking</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequatur, necessitatibus!
-            </p>
-            <img src="./images/img1.svg" alt="Bank" />
-          </li>
-          <li>
-            <h3>Portfolio Manager</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequatur, necessitatibus!
-            </p>
-            <img src="./images/img2.svg" alt="Portfolio" />
-          </li>
-          <li>
-            <h3>Tax & Custudio</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequatur, necessitatibus!
-            </p>
-            <img src="./images/img3.svg" alt="Pen" />
-          </li>
-        </ul>
+      <section class="services-section">
+        <div class="container services-container">
+          <h2 class="visually-hidden">Services</h2>
+          <ul class="services-list">
+            <li class="services-item">
+              <h3 class="services-list-title">Investmant banking</h3>
+              <p class="">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequatur, necessitatibus!
+              </p>
+              <img src="./images/img1.svg" alt="Bank" />
+            </li>
+            <li class="services-item">
+              <h3 class="services-list-title">Portfolio manager</h3>
+              <p class="">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequatur, necessitatibus!
+              </p>
+              <img src="./images/img2.svg" alt="Portfolio" />
+            </li>
+            <li class="services-item">
+              <h3 class="services-list-title">Tax & custudio</h3>
+              <p class="">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequatur, necessitatibus!
+              </p>
+              <img src="./images/img3.svg" alt="Pen" />
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <img src="./images/img4.jpg" alt="Persons" />
-        <p>What you are looking for</p>
-        <h2>We provide bespoke solutions</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
-          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
-          iste maiores deleniti?
-        </p>
-        <button type="button">Read More</button>
+      <section class="about-section">
+        <div class="container">
+          <img src="./images/img4.jpg" alt="Persons" width="680" />
+          <div class="about-content">
+            <p class="about-subtitle">What you are looking for</p>
+            <h2 class="about-title">We provide bespoke solutions</h2>
+            <p class="about-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, ipsum dignissimos quae laudantium asperiores nam
+              aliquid impedit harum illum dolore explicabo ab dolores itaque
+              rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <button class="about-button" type="button">Read More</button>
+          </div>
+        </div>
       </section>
       <section>
         <p>This is what we do</p>

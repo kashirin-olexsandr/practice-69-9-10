@@ -23,32 +23,49 @@
   <body>
     <header>
       <nav class="header-nav container">
-        <a class="logo link" href="/"
-          ><img src="./images/logo.svg" alt="logo" />
+        <a class="logo link" href="/">
+          <svg class="logo-icon" width="40" height="35">
+            <use href="./images/symbol-defs.svg#icon-logo"></use>
+          </svg>
           <span class="logo-accent">Finance</span> Ledger</a
         >
         <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link link" href="">Home</a></li>
-          <li class="nav-item"><a class="nav-link link" href="">About</a></li>
-          <li class="nav-item"><a class="nav-link link" href="">Cases</a></li>
-          <li class="nav-item"><a class="nav-link link" href="">Blog</a></li>
-          <li class="nav-item"><a class="nav-link link" href="">Contact</a></li>
+          <li class="nav-item">
+            <a class="nav-link link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="#cases">Cases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="#cantact">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="hero-section">
+      <section class="hero-section" id="home">
         <div class="container">
           <h1 class="hero-title">The sky is the limit</h1>
           <p class="hero-text">We provide world class financial assistance</p>
           <button class="hero-button" type="button">Read More</button>
         </div>
       </section>
-      <section class="services-section">
+      <section class="services-section" id="about">
         <div class="container services-container">
           <h2 class="visually-hidden">Services</h2>
           <ul class="services-list">
             <li class="services-item">
+              <div class="services-icon-container">
+                <svg width="35" height="35">
+                  <use href="./images/symbol-defs.svg#icon-icon1"></use>
+                </svg>
+              </div>
               <h3 class="services-list-title">Investmant banking</h3>
               <p class="">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -57,6 +74,11 @@
               <img src="./images/img1.svg" alt="Bank" />
             </li>
             <li class="services-item">
+              <div class="services-icon-container">
+                <svg width="35" height="35">
+                  <use href="./images/symbol-defs.svg#icon-icon3"></use>
+                </svg>
+              </div>
               <h3 class="services-list-title">Portfolio manager</h3>
               <p class="">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -65,6 +87,11 @@
               <img src="./images/img2.svg" alt="Portfolio" />
             </li>
             <li class="services-item">
+              <div class="services-icon-container">
+                <svg width="35" height="35">
+                  <use href="./images/symbol-defs.svg#icon-icon2"></use>
+                </svg>
+              </div>
               <h3 class="services-list-title">Tax & custudio</h3>
               <p class="">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -91,30 +118,47 @@
           </div>
         </div>
       </section>
-      <section class="favor-section">
+      <section class="favor-section" id="cases">
         <div class="container favor-container">
           <div class="favor-content">
-        <p class="favor-title">This is what we do</p>
-        <h2 class="favor-main-title">Business Cases</h2>
-        <p class="favor-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-          sapiente!
-        </p></div>
-        <ul class="favor-list">
-          <li>
-            <img src="./images/cases1.jpg" alt="Team" width="320"/>
-          </li>
-          <li><img src="./images/cases3.jpg" alt="Diagrams" width="320" /></li>
-          <li><img src="./images/cases5.jpg" alt="Greeting" width="320" /></li>
-          <li><img src="./images/cases7.jpg" alt="Supporting" width="320" /></li>
-          <li><img src="./images/cases2.jpg" alt="Laptop" width="320" /></li>
-          <li><img src="./images/cases4.jpg" alt="Skyscrapers" width="320" /></li>
-          <li><img src="./images/cases6.jpg" alt="Team Leader" width="320" /></li>          
-          <li><img src="./images/cases8.jpg" alt="Friendly atmosphere" width="320" /></li>
-        </ul>
+            <p class="favor-title">This is what we do</p>
+            <h2 class="favor-main-title">Business Cases</h2>
+            <p class="favor-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto, sapiente!
+            </p>
+          </div>
+          <ul class="favor-list">
+            <li>
+              <img src="./images/cases1.jpg" alt="Team" width="320" />
+            </li>
+            <li>
+              <img src="./images/cases3.jpg" alt="Diagrams" width="320" />
+            </li>
+            <li>
+              <img src="./images/cases5.jpg" alt="Greeting" width="320" />
+            </li>
+            <li>
+              <img src="./images/cases7.jpg" alt="Supporting" width="320" />
+            </li>
+            <li><img src="./images/cases2.jpg" alt="Laptop" width="320" /></li>
+            <li>
+              <img src="./images/cases4.jpg" alt="Skyscrapers" width="320" />
+            </li>
+            <li>
+              <img src="./images/cases6.jpg" alt="Team Leader" width="320" />
+            </li>
+            <li>
+              <img
+                src="./images/cases8.jpg"
+                alt="Friendly atmosphere"
+                width="320"
+              />
+            </li>
+          </ul>
         </div>
       </section>
-      <section class="blog-section">
+      <section class="blog-section" id="blog">
         <div class="container">
           <img src="./images/blog.jpg" alt="blog" width="680" />
           <div class="blog-content">
@@ -126,34 +170,54 @@
               aliquid impedit harum illum dolore explicabo ab dolores itaque
               rerum temporibus doloribus iste maiores deleniti?
             </p>
-            <button class="blog-button " type="button">Read Our Blog</button>
+            <button class="blog-button" type="button">Read Our Blog</button>
           </div>
         </div>
       </section>
       <section class="team-section">
         <div class="container">
-        <div class="team-container">
-          <p class="favor-title">Who we are</p>
-          <h2 class="favor-main-title">Our Professional Team</h2>
-          <p class="favor-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-            sapiente!
-          </p>
-        </div>
-        <ul class="team-list">
-          <li><img class="team-photo" src="./images/person1.jpg" alt="John Doe" width="420" />
-          <h3 class="team-leader">John Doe</h3>
-        <p class="favor-text">President</p></li>
-          <li><img class="team-photo" src="./images/person2.jpg" alt="Jane Doe" width="428" />
-            <h3 class="team-leader">Jane Doe</h3>
-          <p class="favor-text">Vice President</p></li>
-          <li><img class="team-photo" src="./images/person3.jpg" alt="Steve Smith" width="420" />
-            <h3 class="team-leader">Steve Smith</h3>
-          <p class="favor-text">Marketing Head</p></li>
-        </ul>
+          <div class="team-container">
+            <p class="favor-title">Who we are</p>
+            <h2 class="favor-main-title">Our Professional Team</h2>
+            <p class="favor-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto, sapiente!
+            </p>
+          </div>
+          <ul class="team-list">
+            <li>
+              <img
+                class="team-photo"
+                src="./images/person1.jpg"
+                alt="John Doe"
+                width="420"
+              />
+              <h3 class="team-leader">John Doe</h3>
+              <p class="favor-text">President</p>
+            </li>
+            <li>
+              <img
+                class="team-photo"
+                src="./images/person2.jpg"
+                alt="Jane Doe"
+                width="428"
+              />
+              <h3 class="team-leader">Jane Doe</h3>
+              <p class="favor-text">Vice President</p>
+            </li>
+            <li>
+              <img
+                class="team-photo"
+                src="./images/person3.jpg"
+                alt="Steve Smith"
+                width="420"
+              />
+              <h3 class="team-leader">Steve Smith</h3>
+              <p class="favor-text">Marketing Head</p>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
   </body>
 </html>
-

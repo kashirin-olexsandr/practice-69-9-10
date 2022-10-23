@@ -49,6 +49,15 @@ body {
 .logo-accent {
   color: var(--accent-color);
 }
+
+.logo-icon {
+  fill: var(--accent-color);
+}
+.logo.link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 header {
   background-color: #333;
 }
@@ -58,7 +67,12 @@ header {
   align-items: center;
   padding: 20px 50px;
   justify-content: space-between;
-  outline: 1px solid red;
+}
+header {
+ background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+ position: fixed;
+ right: 0;
+ left: 0;
 }
 
 .nav-list {
@@ -74,7 +88,8 @@ header {
   padding-top: 282px;
   padding-bottom: 282px;
   text-align: center;
-  background-color: #333;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Rectangle.jpg);
+
 }
 
 .hero-title {
@@ -128,17 +143,26 @@ header {
   display: flex;
   color: var(--primary-text-color);
   justify-content: space-between;
-
   text-align: center;
 }
 
 .services-item {
   width: 362px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services-icon-container {
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  fill: #fff;
 }
 
 .services-list-title {
   margin-bottom: 16px;
-
   font-weight: 400;
   font-size: 20px;
   line-height: 1.65;

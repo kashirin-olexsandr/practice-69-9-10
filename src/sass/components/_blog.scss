@@ -1,0 +1,18 @@
+.blog-section .container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.blog-content {
+    padding: 112px 44px 112px 30px;
+    background-color: #0284D0;
+}
+
+.blog-button {
+    padding: 10px 35px;
+
+    background-color: #0284D0;
+    color: var(--primary-white-color);
+    border: 1px solid #fff;
+    border-radius: 5px;
+}

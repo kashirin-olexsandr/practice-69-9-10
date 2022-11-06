@@ -1,0 +1,39 @@
+:root {
+    --primary-white-color: #e9e9e9;
+    --primary-text-color: #333;
+    --accent-color: #28a745;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 1.5555;
+    color: var(--primary-white-color);
+}
+
+.container {
+    width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+}

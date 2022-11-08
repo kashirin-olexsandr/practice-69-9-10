@@ -18,7 +18,7 @@
 .team-leader {
     font-size: 25px;
     line-height: 1.28;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     text-align: center;
     margin-top: 12px;
 }
@@ -30,4 +30,17 @@
 
 .team-photo {
     display: block;
+}
+
+.team__position {
+    position: relative;
+}
+
+.team__icons {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    gap: 25px;
 }

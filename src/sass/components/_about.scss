@@ -5,7 +5,7 @@
 .about-content {
     padding: 84px 80px 84px 30px;
 
-    background-color: var(--accent-color);
+    background-color: $accent-color;
 }
 
 .about-subtitle {
@@ -29,10 +29,10 @@
 }
 
 .about-button {
-    padding: 10px 35px;
+    @extend %btn;
 
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
+    background-color: $accent-color;
+    color: $primary-white-color;
     border: 1px solid #fff;
-    border-radius: 5px;
+
 }

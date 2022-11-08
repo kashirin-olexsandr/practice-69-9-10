@@ -10,7 +10,7 @@
 
 .services-list {
     display: flex;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     justify-content: space-between;
     text-align: center;
 }
@@ -24,10 +24,11 @@
 }
 
 .services-icon-container {
+    margin-bottom: 15px;
     width: 67px;
     height: 67px;
     border-radius: 50%;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     fill: #fff;
     display: flex;
     align-items: center;

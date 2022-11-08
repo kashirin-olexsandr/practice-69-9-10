@@ -9,10 +9,8 @@
 }
 
 .blog-button {
-    padding: 10px 35px;
-
+    @extend %btn;
     background-color: #0284D0;
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     border: 1px solid #fff;
-    border-radius: 5px;
 }

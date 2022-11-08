@@ -17,7 +17,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 1.65;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 
     margin-bottom: 15px;
 }
@@ -26,14 +26,14 @@
     font-weight: 300;
     font-size: 38px;
     line-height: 1.26;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 
     margin-bottom: 35px;
 }
 
 .favor-text {
     text-decoration: inherit;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 
 }
 

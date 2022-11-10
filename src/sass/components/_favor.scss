@@ -1,0 +1,44 @@
+.favor-section {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.favor-container {
+    padding: 0 28px;
+
+}
+
+.favor-content {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.favor-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.65;
+    color: $primary-text-color;
+
+    margin-bottom: 15px;
+}
+
+.favor-main-title {
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+    color: $primary-text-color;
+
+    margin-bottom: 35px;
+}
+
+.favor-text {
+    text-decoration: inherit;
+    color: $primary-text-color;
+
+}
+
+.favor-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

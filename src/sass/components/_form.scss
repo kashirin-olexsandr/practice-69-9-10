@@ -1,0 +1,44 @@
+.callback_section .container {
+    display: flex;
+}
+
+.callback_form {
+    width: 100%;
+    padding: 80px 30px;
+    background-color: $form_background;
+}
+
+.form_header{
+    display: block;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: #333333;
+}
+
+.callback_input {
+    margin-top: 35px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #F5F5F5;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.form__button {
+    @extend %btn;
+    margin-top: 60px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $primary-white-color;
+    background-color: $accent-color;
+    border: none;
+}

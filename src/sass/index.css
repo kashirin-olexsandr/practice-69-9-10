@@ -93,8 +93,7 @@ header {
 }
 
 .nav-list {
-  display: flex;
-  align-items: center;
+  display: block;
 }
 
 .nav-item:not(:last-child) {
@@ -111,9 +110,14 @@ header {
 .hero-title {
   margin-bottom: 25px;
   font-weight: 300;
-  font-size: 55px;
+  font-size: 52px;
   line-height: 1.2;
   text-transform: capitalize;
+}
+@media screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 55px;
+  }
 }
 
 .hero-text {

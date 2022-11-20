@@ -39,8 +39,7 @@ header {
 }
 
 .nav-list {
-    display: flex;
-    align-items: center;
+    display: block;
 }
 
 .nav-item:not(:last-child) {
